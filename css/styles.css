@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
+.logo{
+  width: 200px
+}
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
