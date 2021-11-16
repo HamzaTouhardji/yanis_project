@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
+*, body{
+  background-color: #7ed957;
+}
+
 .logo{
   width: 200px
 }
@@ -8,11 +12,17 @@
   background-size: cover;
 }
 .testimonials .testimonial-item {
-  max-width: 18rem;
+
 }
 .testimonials .testimonial-item img {
-  max-width: 12rem;
+
   box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+.text{
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-right: 100px;
 }
 .bg{
   background-color: rgb(115, 147, 255);
@@ -31,4 +41,16 @@ hr{
   width: 40%;
   margin:auto;
   margin-bottom: 50px;
+}
+
+
+/* ===============================MEDIA QUERY================================== */
+
+@media screen and (max-width: 768px) {
+  .frame {
+    flex-direction: column !important;
+  }
+  .text{
+    margin-right: 0px;
+  }
 }
